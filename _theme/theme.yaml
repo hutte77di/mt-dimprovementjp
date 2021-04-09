@@ -6,11 +6,11 @@ author_name: "Di"
 description: "ditheme"
 class: "blog"
 elements:
-  blog_static_files:
-    component: ~
-    data:
-      - learning
-    importer: blog_static_files
+  # blog_static_files:
+  #   component: ~
+  #   data:
+  #     - learning
+  #   importer: blog_static_files
   field_display_options:
     component: ~
     data:
@@ -52,4 +52,3 @@ elements:
             outfile: test.js
             rebuild_me: 1
     importer: template_set
-
