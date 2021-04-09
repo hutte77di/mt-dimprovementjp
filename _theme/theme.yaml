@@ -1,0 +1,55 @@
+id: "ditheme"
+label: "ditheme"
+version: "1.0.1"
+author_link: "https://www.d-improvement.jp/"
+author_name: "Di"
+description: "ditheme"
+class: "blog"
+elements:
+  blog_static_files:
+    component: ~
+    data:
+      - learning
+    importer: blog_static_files
+  field_display_options:
+    component: ~
+    data:
+      page:
+        excerpt:
+          display: default
+          order: 2
+        keywords:
+          display: default
+          order: 1
+        text:
+          display: default
+          order: 0
+      post:
+        excerpt:
+          display: default
+          order: 2
+        keywords:
+          display: default
+          order: 1
+        text:
+          display: default
+          order: 0
+    importer: field_display_options
+  template_set:
+    component: core
+    data:
+      base_path: templates
+      templates:
+        index:
+          main_index:
+            filename: index.html.mtml
+            label: メインページ
+            outfile: index.html
+            rebuild_me: 1
+          test_js:
+            filename: test.js.mtml
+            label: test.js
+            outfile: test.js
+            rebuild_me: 1
+    importer: template_set
+
