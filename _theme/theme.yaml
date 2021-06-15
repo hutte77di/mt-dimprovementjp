@@ -46,7 +46,7 @@ elements:
             label: メインページ
             outfile: index.html
             rebuild_me: 1
-          main_index2021:
+          index2021:
             filename: index2021.html.mtml
             label: メインページ2021
             outfile: index2021.html
