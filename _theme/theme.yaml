@@ -43,7 +43,7 @@ elements:
         index:
           main_index:
             filename: index.html.mtml
-            label: メインページ
+            label: メインページ仮
             outfile: index.html
             rebuild_me: 1
           test_js:
