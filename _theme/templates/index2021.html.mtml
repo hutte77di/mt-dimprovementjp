@@ -1,19 +1,432 @@
 <!DOCTYPE html>
 <html lang="<$mt:BlogLanguage$>">
-<head>
-<meta charset="<$mt:PublishCharset$>">
-<title><$mt:BlogName encode_html="1"$> ___ 株式会社デザイン・インプルーブメント</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-</head>
-<body>
-  <section>
-    <h1><img src="/_assets/img/logo.svg" alt="<$mt:BlogName encode_html="1"$>" width="170" height="131"></h1>
-    <p><$mt:BlogDescription remove_html="1" encode_html="1"$></p>
-    <p>ウェブサイトはメンテナンス中です🙇（<time>2021-06-15</time>）</p>
-    <div>
-      <iframe style="border:none" width="100%" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-NWnN3bq2Mq4RrW7MlLVZmoozIUJFrkDBgm3cmeifu1mc7efSJrquqtTx7pqvVBduZCEcVnvp-JSZ/pubhtml?widget=true&amp;headers=false"></iframe>
+  <head>
+    <meta charset="<$mt:PublishCharset$>">
+    <title><$mt:BlogName encode_html="1"$> ___ 株式会社デザイン・インプルーブメント</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/_assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+    <link rel="stylesheet" href="/_assets/css/styles.min.css" type="text/css">
+  </head>
+  <body id="di" class="home">
+    <header id="site-id" class="header">
+      <div class="container">
+        <div class="header_title">
+          <a href="/">
+            <div class="header_title_logo">
+              <img src="/_assets/img/logo.svg" alt="" class="img-fluid" width="170" height="131">
+            </div>
+          </a>
+        </div>
+        <nav class="header_nav">
+          <ul>
+            <li id="nav-sns-instagram"><a href="https://www.instagram.com/hutte77di/" target="_blank"><img src="/_assets/img/nav-insta.svg" alt="instagram"></a></li>
+            <li id="nav-contact"><a href="#"><img src="/_assets/img/nav-contact.svg" alt="instagram"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="contents">
+      <section id="outline">
+        <hr>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-7">
+              <div class="heading">
+                <h2>会社概要</h2>
+              </div>
+              <table class="table">
+                <tr>
+                  <th>会社名</th>
+                  <td>株式会社デザイン・インプルーブメント</td>
+                </tr>
+                <tr>
+                  <th>代表取締役</th>
+                  <td>吉村正照</td>
+                </tr>
+                <tr>
+                  <th>事業内容</th>
+                  <td>ウェブサイトの企画、制作、運用支援</td>
+                </tr>
+                <tr>
+                  <th>資本金</th>
+                  <td>300万円</td>
+                </tr>
+                <tr>
+                  <th>設立</th>
+                  <td>2006年7月7日</td>
+                </tr>
+                <tr>
+                  <th>住所</th>
+                  <td>〒910-0152 福井県福井市古市3丁目610 ヒュッテナナナ</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </section>
+      <section id="can">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-7">
+              <div class="heading">
+                <h2><span>What We Can Do</span>このようなご相談にお応えできます</h2>
+              </div>
+            </div>
+          </div>
+          <div id="localnav" class="row justify-content-center">
+            <div class="col-12 col-md-4">
+              <a href="#can1">①ウェブ・ディレクターを探している</a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="#can2">②フロントエンド開発者を探している</a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="#can3">③ウェブ支援先を探している<span>※ 現在、ご紹介のある方のみとしております</span></a>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <div class="arrow text-center">　　　詳しく　　ご説明します</div>
+            </div>
+          </div>
+        </div>
+        <div id="can1" class="chapter">
+          <div class="block-title">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                  <h3>①ウェブ・ディレクター<span>として</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
+                <p>クリエイティブな制作チームに参画し、ウェブ・ディレクターを担当します。</p>
+              </div>
+            </div>
+          </div>
+          <div id="target" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>対象</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <ul>
+                      <li>クリエイティブファーム</li>
+                      <li>コンサルティングファーム</li>
+                      <li>デザイン事務所</li>
+                      <li>広告代理店</li>
+                    </ul>
+                    <div class="needs">
+                      <h5>このような<span>ニーズ</span>にお応えします</h5>
+                      <ul>
+                        <li>ブランディングやプロモーションのプロジェクトチームに参加して、ウェブ関連のディレクションを担ってほしい。</li>
+                        <li>制作チームのリーダー（プランナー、クリエイティブディレクター）の意向を理解した上で、クライアントの打ち合わせにも参加してほしい。</li>
+                        <li>要件規模に最適なシステム環境を提案してほしい。企画を実現するために利用可能な既成のサービスがあるか調査をしてほしい。複数ある場合はどれが最適なのかを推薦してほしい。</li>
+                        <li>ウェブの特性をふまえたコンテンツをともに企画してほしい。</li>
+                        <li>時流に合わせたコンテンツの見せ方を提案してほしい。</li>
+                        <li>ネットショップや予約システムの構築にあたり、仕様書・ワイヤーフレームの作成を行って、委託先となるシステム会社やウェブデザイナーにディレクションをしてほしい。</li>
+                        <li>画面タッチやマウスクリック時のアニメーションなど細かい演出をアートディレクターとともに吟味して、フロントエンドの開発担当者にディレクションをしてほしい。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="case" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>事例</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <p><a href="">Kazuo Kawasaki ACT 商品ブランディング＆プロモーション</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="fee" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>料金<span>（税込）</span></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <table class="table">
+                      <tr>
+                        <th>ディレクション</th>
+                        <td>11,000円<span>／時間</span>｜33,000円<span>〜／月</span> <a href="#note1">*1</a></td>
+                      </tr>
+                      <tr>
+                        <th>ワイヤーフレーム</th>
+                        <td>22,000円<span>／ページ：Desktop, Tablet, Mobile</span> <a href="#note2">*2</a></td>
+                      </tr>
+                    </table>
+                    <div class="notes">
+                      <p>*1 時間単価を11,000円として、月額33,000円から（納期や業務量に応じて変動）承ります。</p>
+                      <p>*2 Desktop, Mobileのみ（Tabletなし）やボリュームディスカウントもございます。詳細はお問い合わせください。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="can2" class="chapter">
+          <div class="block-title">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                  <h3>②フロントエンド開発者<span>として</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
+                <p>クリエイティブな制作チームに参画し、フロントエンド開発（HTML/CSS/JS）を担当します。</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="target" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>対象</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <ul>
+                      <li>クリエイティブファーム</li>
+                      <li>コンサルティングファーム</li>
+                      <li>デザイン事務所</li>
+                      <li>広告代理店</li>
+                    </ul>
+                    <h5>このような<span>ニーズ</span>にお応えします</h5>
+                    <ul class="needs">
+                      <li>ブランディングやプロモーションのプロジェクトチームに参加して、ウェブ関連のディレクションを担ってほしい。</li>
+                      <li>制作チームのリーダー（プランナー、クリエイティブディレクター）の意向を理解した上で、クライアントの打ち合わせにも参加してほしい。</li>
+                      <li>要件規模に最適なシステム環境を提案してほしい。企画を実現するために利用可能な既成のサービスがあるか調査をしてほしい。複数ある場合はどれが最適なのかを推薦してほしい。</li>
+                      <li>ウェブの特性をふまえたコンテンツをともに企画してほしい。</li>
+                      <li>時流に合わせたコンテンツの見せ方を提案してほしい。</li>
+                      <li>ネットショップや予約システムの構築にあたり、仕様書・ワイヤーフレームの作成を行って、委託先となるシステム会社やウェブデザイナーにディレクションをしてほしい。</li>
+                      <li>画面タッチやマウスクリック時のアニメーションなど細かい演出をアートディレクターとともに吟味して、フロントエンドの開発担当者にディレクションをしてほしい。</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="case" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>事例</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <p><a href="">Kazuo Kawasaki ACT 商品ブランディング＆プロモーション</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="fee" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>料金<span>（税込）</span></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <table class="table">
+                      <tr>
+                        <th>ディレクション</th>
+                        <td>11,000円<span>／時間</span>｜33,000円<span>〜／月</span> <a href="#note1">*1</a></td>
+                      </tr>
+                      <tr>
+                        <th>ワイヤーフレーム</th>
+                        <td>22,000円<span>／ページ：Desktop, Tablet, Mobile</span> <a href="#note2">*2</a></td>
+                      </tr>
+                    </table>
+                    <div class="notes">
+                      <p>*1 時間単価を11,000円として、月額33,000円から（納期や業務量に応じて変動）承ります。</p>
+                      <p>*2 Desktop, Mobileのみ（Tabletなし）やボリュームディスカウントもございます。詳細はお問い合わせください。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div id="can3" class="chapter">
+          <div class="block-title">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                  <h3>③ウェブ支援先<span>として</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
+                <p>＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="target" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>対象</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <ul>
+                      <li>クリエイティブファーム</li>
+                      <li>コンサルティングファーム</li>
+                      <li>デザイン事務所</li>
+                      <li>広告代理店</li>
+                    </ul>
+                    <h5>このような<span>ニーズ</span>にお応えします</h5>
+                    <ul class="needs">
+                      <li>ブランディングやプロモーションのプロジェクトチームに参加して、ウェブ関連のディレクションを担ってほしい。</li>
+                      <li>制作チームのリーダー（プランナー、クリエイティブディレクター）の意向を理解した上で、クライアントの打ち合わせにも参加してほしい。</li>
+                      <li>要件規模に最適なシステム環境を提案してほしい。企画を実現するために利用可能な既成のサービスがあるか調査をしてほしい。複数ある場合はどれが最適なのかを推薦してほしい。</li>
+                      <li>ウェブの特性をふまえたコンテンツをともに企画してほしい。</li>
+                      <li>時流に合わせたコンテンツの見せ方を提案してほしい。</li>
+                      <li>ネットショップや予約システムの構築にあたり、仕様書・ワイヤーフレームの作成を行って、委託先となるシステム会社やウェブデザイナーにディレクションをしてほしい。</li>
+                      <li>画面タッチやマウスクリック時のアニメーションなど細かい演出をアートディレクターとともに吟味して、フロントエンドの開発担当者にディレクションをしてほしい。</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="case" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>事例</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <p><a href="">Kazuo Kawasaki ACT 商品ブランディング＆プロモーション</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="fee" class="block">
+            <div class="block-subtitle">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4>料金<span>（税込）</span></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <table class="table">
+                      <tr>
+                        <th>ディレクション</th>
+                        <td>11,000円<span>／時間</span>｜33,000円<span>〜／月</span> <a href="#note1">*1</a></td>
+                      </tr>
+                      <tr>
+                        <th>ワイヤーフレーム</th>
+                        <td>22,000円<span>／ページ：Desktop, Tablet, Mobile</span> <a href="#note2">*2</a></td>
+                      </tr>
+                    </table>
+                    <div class="notes">
+                      <p>*1 時間単価を11,000円として、月額33,000円から（納期や業務量に応じて変動）承ります。</p>
+                      <p>*2 Desktop, Mobileのみ（Tabletなし）やボリュームディスカウントもございます。詳細はお問い合わせください。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
     </div>
-  </section>
-</body>
+
+    <footer id="siteinfo" class="footer">
+      <div class="footer_copyright">© 2021 Di</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script src="/_assets/js/script.min.js"></script>
+  </body>
 </html>
