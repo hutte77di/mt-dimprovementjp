@@ -56,4 +56,13 @@ elements:
             label: メインページ2021
             outfile: index2021.html
             rebuild_me: 1
+        page:
+          webpage:
+            filename: webpage.mtml
+            label: ウェブページ
+            mappings:
+              page:
+                archive_type: Page
+                file_template: "%-c/%-f"
+                preferred: 1
     importer: template_set
